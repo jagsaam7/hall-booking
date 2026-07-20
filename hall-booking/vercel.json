@@ -1,0 +1,19 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "regions": ["sin1"],
+  "env": {
+    "TURSO_DATABASE_URL": "@turso-database-url",
+    "TURSO_AUTH_TOKEN": "@turso-auth-token",
+    "SMS_API_KEY": "@sms-api-key",
+    "SMTP_HOST": "@smtp-host",
+    "SMTP_PORT": "@smtp-port",
+    "SMTP_USER": "@smtp-user",
+    "SMTP_PASS": "@smtp-pass",
+    "EMAIL_FROM": "@email-from",
+    "ADMIN_SECRET": "@admin-secret",
+    "OTP_EXPIRY_SECONDS": "300"
+  }
+}
